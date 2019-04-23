@@ -1,0 +1,52 @@
+Crimson Editor color scheme
+
+offset  size    type            description
+   0      27    char[]          "Color Settings 3.45 Release"
+  27      40    COLORREF[10]    background colors
+  67     160    COLORREF[40]    foreground colors
+
+typedef DWORD COLORREF; // 0x00bbggrr
+
+background colors:
+ 0  background
+ 1  left margin
+ 2  active line
+ 3  range 1
+ 4  range 2
+
+foreground colors:
+ 1  WT_RETURN       delimiter
+ 2  WT_LINEFEED     line number
+ 3  WT_TAB          delimiter
+ 4  WT_SPACE        delimiter
+ 5  WT_CONSTANT     constant
+ 6  WT_QUOTATION1   string
+ 7  WT_QUOTATION2
+ 8  WT_QUOTATION3
+ 9  WT_LINECOMMENT  comment
+10  WT_COMMENTON
+11  WT_COMMENTOFF
+12  WT_SHADOWON     shadowed
+13  WT_SHADOWOFF
+14  WT_HIGHLIGHTON  highlighted
+15  WT_HIGHLIGHTOFF
+16  WT_RANGE1BEG
+17  WT_RANGE1END
+18  WT_RANGE2BEG
+19  WT_RANGE2END
+20  WT_VARIABLE     variable
+21  WT_KEYWORD0     keyword 0
+22  WT_KEYWORD1     keyword 1
+23  WT_KEYWORD2     keyword 2
+24  WT_KEYWORD3     keyword 3
+25  WT_KEYWORD4     keyword 4
+26  WT_KEYWORD5     keyword 5
+27  WT_KEYWORD6     keyword 6
+28  WT_KEYWORD7     keyword 7
+29  WT_KEYWORD8     keyword 8
+30  WT_KEYWORD9     keyword 9
+31  WT_WORD         normal text*
+32  WT_WRONGWORD    normal text
+33  WT_DELIMITER    delimiter*
+34  WT_DBCHAR       normal text
+35  WT_GRAPH        normal text
