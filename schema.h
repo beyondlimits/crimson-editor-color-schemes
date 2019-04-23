@@ -54,7 +54,8 @@
 #define CL_COUNT          50
 
 static const struct schema {
-	char *name, position, compare_to;
+	char *name;
+	unsigned position, compare_to;
 } schema[] = {
 	{"background"  , CL_BACKGROUND  , CL_DO_NOT_COMPARE},
 	{"leftmargin"  , CL_LEFTMARGIN  , CL_DO_NOT_COMPARE},
